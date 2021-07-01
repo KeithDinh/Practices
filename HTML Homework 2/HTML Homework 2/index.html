@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Homework 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="content/css/style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <h1>Problem 1</h1>
+        <div id="Problem1">
+            <form class="text-center">
+                <h2>Sign Up</h2>
+                <div class="row">
+                    <div class="col-md-6 mt-3">
+                        <input type="text" class="form-control" value="" placeholder="First Name" />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <input type="text" class="form-control" value="" placeholder="Last Name" />
+                    </div>
+                </div>
+                <input type="text" class="form-control my-3" value="" placeholder="Mobile No." />
+                <input type="text" class="form-control my-3" value="" placeholder="Email Address" />
+                <div class="row my-3">
+                    <div class="col-6">
+                        <input type="text" class="form-control" value="" placeholder="Password" />
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" value="" placeholder="Confirm Password" />
+                    </div>
+                </div>
+                <div class="row my-3 text-start conditions">
+                    <div class="col-3 mt-3">
+                        <input type="checkbox" value="" /> <span class="fw-bold">I Agree</span>
+                    </div>
+                    <div class="col-9">
+                        By clicking
+                        <button class="btn btn-primary btn-sm text-white">Register</button> , you agree to the
+                        <a href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.
+                    </div>
+                </div>
+
+                <div class="row my-3">
+                    <div class="col-6">
+                        <button class="btn btn-lg btn-primary w-100">Register</button>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-lg btn-success w-100">Sign In</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="my-5"></div>
+        <h1>Problem 2</h1>
+        <div id="Problem2">
+            <div class="py-2 mt-5">
+                <div class="ms-3">
+                    <h2>Enter the system</h2>
+                    <p>It is neccessary to login in Your account in order to sign in for a course</p>
+                </div>
+                <div class="container-fluid px-4 py-2">
+                    <div class="row">
+                        <form class="col-md-6 pt-2">
+                            <h5 class="text-secondary">ARE YOU NEW? <span class="text-primary">REGISTER</span> </h5>
+                            <input type="text" value="" class="form-control my-2" placeholder="User name" />
+                            <input type="email" value="" class="form-control my-2" placeholder="Email" />
+                            <input type="password" value="" class="form-control my-2" placeholder="Pasword" />
+                            <input type="password" value="" class="form-control my-2" placeholder="Confirm Password" />
+                            <div class="text-end">
+                                <button class="btn btn-outline-primary">Register</button>
+                            </div>
+                        </form>
+                        <form class="col-md-6 py-2">
+                            <h5 class="text-white">ALREADY A STUDENT? LOGIN</h5>
+                            <input type="text" value="" class="form-control my-2" placeholder="User name" />
+                            <input type="password" value="" class="form-control my-2" placeholder="Pasword" />
+                            <div class="row">
+                                <div class="col-6 text-white">
+                                    <input type="checkbox" value="" /> Remember me?
+                                </div>
+                                <div class="col-6 text-end">
+                                    <button class="btn btn-outline-warning w-100">Login</button><br />
+                                    <a href="#" class="text-white">Forgot Password</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-5"></div>
+        <h1>Problem 3</h1>
+        <div id="Problem3">
+            <form class="p-3">
+                <h3 class="fst-italic fw-bold text-center">FLIGHT ORDER</h3>
+                <div class="row my-1">
+                    <div class="col-6">
+                        <label class="fst-italic">From</label><br />
+                        <select class="w-100">
+                            <option value="value">enter a city</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <label class="fst-italic">From</label><br />
+                        <select class="w-100">
+                            <option value="value">enter a city</option>
+                        </select>
+                        <input type="checkbox" value="" /> <label class="fst-italic">Prefer directs</label>
+                    </div>
+                </div>
+                <div class="row my-1">
+                    <div class="col-6">
+                        <label class="fst-italic">Departure Date</label><br />
+                        <input class="w-100" type="date" name="name" value="" />
+                    </div>
+                    <div class="col-6">
+                        <label class="fst-italic">Time Interval</label><br />
+                        <div class="row">
+                            <div class="col-6">
+                                <input class="w-100" type="time" name="name" value="" />
+                            </div>
+                            <div class="col-6">
+                                <input class="w-100" type="time" name="name" value="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-1">
+                    <div class="col-6">
+                        <label class="fst-italic">Return Date</label><br />
+                        <input class="w-100" type="date" name="name" value="" />
+                    </div>
+                    <div class="col-6">
+                        <label class="fst-italic">Time Interval</label><br />
+                        <div class="row">
+                            <div class="col-6">
+                                <input class="w-100" type="time" name="name" value="" />
+                            </div>
+                            <div class="col-6">
+                                <input class="w-100" type="time" name="name" value="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-1">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-4">
+                                <label class="fst-italic" min="12">12+</label><br />
+                                <input class="w-100" type="number" name="name" value="" />
+                            </div>
+                            <div class="col-4">
+                                <label class="fst-italic" min="2" max="12">2-12</label><br />
+                                <input class="w-100" type="number" name="name" value="" />
+                            </div>
+                            <div class="col-4">
+                                <label class="fst-italic" min="0" max="2">0-2</label><br />
+                                <input class="w-100" type="number" name="name" value="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label class="fst-italic">From</label><br />
+                        <select class="w-100">
+                            <option value="value">Economy</option>
+                        </select>
+                        <button class="w-100 my-3 btn btn-light"> Search </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="my-5"></div>
+        <h1>Problem 4</h1>
+        <div id="Problem4" class="p-3">
+            <img src="../images/240px-WordPress_logo.svg.png" height="100" alt="wordpress" /><br />
+            Upload a theme <input type="file" id="myFile" name="filename"><br /> <br />
+            Or search in wordpress <input type="text" name="name" value="" /> <img src="../images/wordpress_PNG47.png" height="30" alt="wordpress logo" />
+        </div>
+        <div class="my-5"></div>
+        <h1>Problem 5</h1>
+        <div id="Problem5">
+            <div class="w-75 p-3">
+                <h1 class="text-center fw-bold font-100">fakebook</h1>
+                <h3 class="text-center font-40 ">Registration</h3>
+                <h5 class="text-center">It is safe and it will always be!</h5>
+                <form class="mt-5">
+                    <div class="row">
+                        <div class="col-5">
+                            <fieldset class="form-group border bd-round p-2 ">
+                                <legend class="text-center font-15 fw-bold">None-Important Information</legend>
+                                <div class="row my-2">
+                                    <div class="col-6">
+                                        <input type="text" placeholder="First Name" class="form-control" p value="" />
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="Last Name" class="form-control" p value="" />
+                                    </div>
+                                </div>
+                                <div class="row my-2">
+                                    <div class="col-6">
+                                        <input type="text" placeholder="Your Email" class="form-control" p value="" />
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="Phone Number" class="form-control" p value="" />
+                                    </div>
+                                </div>
+                                <div class="row my-2">
+                                    <div class="col-6">
+                                        <input type="text" placeholder="Your Password" class="form-control" p value="" />
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="Website" class="form-control" p value="" />
+                                    </div>
+                                </div>
+                                <div class="row my-2">
+                                    <div class="col-10">
+                                        <label>Birthday</label>
+                                        <input type="datetime-local" class="form-control" p value="" />
+                                    </div>
+                                </div>
+                                <div class="row mt-2 mb-4">
+                                    <div class="col-4 ">
+                                        <input type="radio" name="gen" value="Female">
+                                        <label for="gen" class="font-15">Female</label><br>
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="radio" name="gen" value="Male">
+                                        <label for="gen" class="font-15">Male</label><br>
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="radio" name="gen" value="Other">
+                                        <label for="gen" class="font-15">Other</label><br>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-7">
+                            <fieldset class="form-group border bd-round p-2">
+                                <legend class="text-center font-15 fw-bold">Important Information *required</legend>
+                                <div class="row my-2">
+                                    <div class="col-4">
+                                        <select class="form-control">
+                                            <option value="value">Country</option>
+                                            <option value="value">US</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="type" class="form-control" placeholder="Village" p value="" />
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="type" class="form-control" placeholder="District" p value="" />
+                                    </div>
+                                </div>
+                                <div class="row my-2">
+                                    <div class="col-4">
+                                        <input type="type" class="form-control" placeholder="Street" p value="" />
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="type" class="form-control" placeholder="Nr" p value="" />
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="type" class="form-control" placeholder="Floor" p value="" />
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="type" class="form-control" placeholder="Ap Nr" p value="" />
+                                    </div>
+                                </div>
+                                <label>Door Color</label> <br />
+                                <div class="row my-2">
+                                    <div class="col-4">
+                                        <input type="color" class="form-control h-100" value="" />
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="type" class="form-control" placeholder="Water Meter Nr" p value="" />
+                                    </div>
+                                    <div class="col-4">
+                                        <select class="form-control">
+                                            <option value="value">Aunt Panties' Size'</option>
+                                            <option value="value">Uncle Roger Style</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <label>More Personal Information</label> <br />
+                                <textarea class="form-control w-100" placeholder="Give Us More Information!!!" > </textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-5">
+                            <button class="btn btn-secondary btn-lg w-100">Clear Form</button>
+                        </div>
+                        <div class="col-7">
+                            <button class="btn btn-secondary btn-lg w-100">Register</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="my-5"></div>
+        <h1>Problem 6</h1>
+        <div id="Problem6">
+            <div class="w-75 p-3">
+                <div class="row">
+                    <div class="col-9">
+                        <h2 class="fw-bold">Apple's Laptops (6)</h2>
+                        <div class="row">
+                            <div class="col-4 my-3">
+                                <a href="https://www.google.com target="_blank">
+                                    <div class="position-relative bd-round pt-3">
+                                        <div class="px-3">
+                                            <h5 class="mb-1">Apple MacBook Air</h5>
+                                            <div class="fs-6">11.6 inch/1.3 GHz <br /> Haswell</div>
+                                        </div>
+                                        <img width="100%" class="mt-1 mb-2" src="content/images/front_thumbnail.jpg" alt="mac" />
+                                        <div class="row w-100 ms-0 text-end">
+                                            <div class="col-6 offset-6 p-3 bg-fb text-white bd-round-top-left">
+                                                $1,729.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-4 my-3">
+                                <a href="https://www.google.com target="_blank">
+                                    <div class="position-relative bd-round pt-3">
+                                        <div class="px-3">
+                                            <h5 class="mb-1">Apple MacBook Air</h5>
+                                            <div class="fs-6">11.6 inch/1.3 GHz <br /> Haswell</div>
+                                        </div>
+                                        <img width="100%" class="mt-1 mb-2" src="content/images/front_thumbnail.jpg" alt="mac" />
+                                        <div class="row w-100 ms-0 text-end">
+                                            <div class="col-6 offset-6 p-3 bg-fb text-white bd-round-top-left">
+                                                $1,729.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-4 my-3">
+                                <a href="https://www.google.com target="_blank">
+                                    <div class="position-relative bd-round pt-3">
+                                        <div class="px-3">
+                                            <h5 class="mb-1">Apple MacBook Air</h5>
+                                            <div class="fs-6">11.6 inch/1.3 GHz <br /> Haswell</div>
+                                        </div>
+                                        <img width="100%" class="mt-1 mb-2" src="content/images/front_thumbnail.jpg" alt="mac" />
+                                        <div class="row w-100 ms-0 text-end">
+                                            <div class="col-6 offset-6 p-3 bg-fb text-white bd-round-top-left">
+                                                $1,729.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-4 my-3">
+                                <a href="https://www.google.com target="_blank">
+                                    <div class="position-relative bd-round pt-3">
+                                        <div class="px-3">
+                                            <h5 class="mb-1">Apple MacBook Air</h5>
+                                            <div class="fs-6">11.6 inch/1.3 GHz <br /> Haswell</div>
+                                        </div>
+                                        <img width="100%" class="mt-1 mb-2" src="content/images/front_thumbnail.jpg" alt="mac" />
+                                        <div class="row w-100 ms-0 text-end">
+                                            <div class="col-6 offset-6 p-3 bg-fb text-white bd-round-top-left">
+                                                $1,729.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-4 my-3">
+                                <a href="https://www.google.com target="_blank">
+                                    <div class="position-relative bd-round pt-3">
+                                        <div class="px-3">
+                                            <h5 class="mb-1">Apple MacBook Air</h5>
+                                            <div class="fs-6">11.6 inch/1.3 GHz <br /> Haswell</div>
+                                        </div>
+                                        <img width="100%" class="mt-1 mb-2" src="content/images/front_thumbnail.jpg" alt="mac" />
+                                        <div class="row w-100 ms-0 text-end">
+                                            <div class="col-6 offset-6 p-3 bg-fb text-white bd-round-top-left">
+                                                $1,729.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-4 my-3">
+                                <a href="https://www.google.com target="_blank">
+                                    <div class="position-relative bd-round pt-3">
+                                        <div class="px-3">
+                                            <h5 class="mb-1">Apple MacBook Air</h5>
+                                            <div class="fs-6">11.6 inch/1.3 GHz <br /> Haswell</div>
+                                        </div>
+                                        <img width="100%" class="mt-1 mb-2" src="content/images/front_thumbnail.jpg" alt="mac" />
+                                        <div class="row w-100 ms-0 text-end">
+                                            <div class="col-6 offset-6 p-3 bg-fb text-white bd-round-top-left">
+                                                $1,729.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 border border-info">
+                        <p class="text-center fs-5 mb-0 mt-5">Price</p>
+                        <div class="row">
+                            <div class="col-6">
+                                1700
+                            </div>
+                            <div class="col-6 text-end">
+                                2600
+                            </div>
+                        </div>
+                        <input type="range" class="w-100" value="" />
+                        <p class="text-center fs-5 mb-0 mt-4">RAM</p>
+                        <div class="row">
+                            <div class="col-6">
+                                1700
+                            </div>
+                            <div class="col-6 text-end">
+                                2600
+                            </div>
+                        </div>
+                        <input type="range" class="w-100" value="" />
+                        <p class="text-center fs-5 mb-0 mt-4">Disc</p>
+                        <div class="row">
+                            <div class="col-6">
+                                2048
+                            </div>
+                            <div class="col-6 text-end">
+                                4096
+                            </div>
+                        </div>
+                        <input type="range" class="w-100" value="" />
+                        <p class="text-center fs-5 mb-0 mt-4">Display</p>
+                        <div class="row">
+                            <div class="col-6">
+                                100GB
+                            </div>
+                            <div class="col-6 text-end">
+                                2000GB
+                            </div>
+                        </div>
+                        <input type="range" class="w-100" value="" />
+                        <p class="text-center fs-5 mb-0 mt-4">Weight</p>
+                        <div class="row">
+                            <div class="col-6">
+                                1
+                            </div>
+                            <div class="col-6 text-end">
+                                6
+                            </div>
+                        </div>
+                        <input type="range" class="w-100" value="" />
+                        <p class="text-center fs-5 mb-0 mt-4">Warranty</p>
+                        <div class="row">
+                            <div class="col-6">
+                                12 months
+                            </div>
+                            <div class="col-6 text-end">
+                                60 months
+                            </div>
+                        </div>
+                        <input type="range" class="w-100" value="" />
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
