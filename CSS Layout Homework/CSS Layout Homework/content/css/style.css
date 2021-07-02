@@ -75,9 +75,6 @@
     #Problem3 .container__list__item__img img {
         height: 200px;
     }
-    #Problem3 .container__pages .row{
-        list-style: none;
-    }
 
 #Problem5 .heading-image {
     background-image: url("../images/green_field.jpg");

@@ -75,6 +75,7 @@
     <Content Include="content\images\people.jpg" />
     <Content Include="content\images\summer.jpg" />
     <Content Include="content\images\world-map-img-foot.png" />
+    <Content Include="content\javascript\pagination.js" />
     <Content Include="content\javascript\Problem1-2.html" />
     <Content Include="content\javascript\Problem3.html" />
     <Content Include="content\javascript\Problem4-5.html" />
