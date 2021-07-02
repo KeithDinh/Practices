@@ -1,0 +1,120 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+.bd-round-15 {
+    border-radius: 15px;
+    border: 2px solid #E8E6E6;
+}
+.bg-gray {
+    background-color: #DEDEDE;
+}
+#Problem1 > div {
+    background-color: #54A3F2;
+}
+    #Problem1 ul {
+        list-style: none;
+    }
+    .dropdown-1:hover .dropdown-menu,
+    .dropdown-2:hover .dropdown-menu,
+    .dropdown-3:hover .dropdown-menu {
+        display: block;
+    }
+
+#Problem2 > div {
+    background-color: #272E31;
+}
+
+    #Problem2 a {
+        text-decoration: none;
+        color: white;
+    }
+
+#Problem3 {
+    width: 100%;
+    height: 100vw;
+    background-color: #E8E6E6;
+}
+    #Problem3 * {
+        box-sizing: border-box;
+    }
+    #Problem3 nav {
+        background-image: url("../images/back-wallpapers-for-blue-marble-wallpapers.jpg");
+        width: 100%;
+        height: 110px;
+        position: relative;
+    }
+    #Problem3 nav button {
+        color: white;
+        background-color: orange;
+        padding: 5px 10px;
+        position: absolute;
+        right: 300px;
+        top: 35px;
+    }
+    #Problem3 .container {
+        width: calc(100% - 600px);
+        margin: 50px auto;
+    }
+    #Problem3 .container__list {
+        margin-top: 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    #Problem3 .container__list__item {
+        background-color: white;
+        width: 32%;
+        padding: 1em 2em;
+    }
+    #Problem3 .container__list__item__img {
+        text-align: center;
+    }
+    #Problem3 .container__list__item__img img {
+        height: 200px;
+    }
+    #Problem3 .container__pages .row{
+        list-style: none;
+    }
+
+#Problem5 .heading-image {
+    background-image: url("../images/green_field.jpg");
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+    #Problem5 .heading-image h1 {
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+        font-size: 3em;
+    }
+
+    #Problem5 nav {
+        border-bottom: 5px double #C2C2C2;
+        background-color: #DEDEDE;
+    }
+    #Problem5 p {
+        font-size: 20px;
+    }
+    #Problem5 nav a {
+        border: 1px solid white;
+    }
+    #Problem5 nav a:hover {
+        background-color: gray;
+    }
+    #Problem5 nav a:hover .btn.fs-2.px-5 {
+        color: white !important;
+    }
+    #Problem5 footer {
+        background-color: #89C321;
+        height: 180px;
+    }
+
+    #Problem5 h1 {
+        color: #89C321;
+    }
+    
